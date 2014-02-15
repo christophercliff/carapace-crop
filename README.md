@@ -13,7 +13,7 @@ var Crop = require('carapace-crop')
 Carapace
     .create(imageEl)
     .run([
-        Crop.create({ width: 400, height: 400, left: 400, top: 400 })
+        Crop.create({ width: 100, height: 100, left: 100, top: 100 })
     ], function(err, canvas){
         canvas // [object HTMLCanvasElement 100x100]
     })
